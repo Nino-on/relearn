@@ -1,26 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="../relearn/style.css"
-    rel="stylesheet"/>
-    <title>Hello World</title>
+    <title>Hello world</title>
+    <script type="text/javascript">
+       /*
+       // how to creating random numbers and round up ------------ 
+       var randomNumber=Math.random();
 
+       var random=randomNumber*10;
+
+       var randomInterger=Math.floor(random);
+
+       //console.log(randomInterger);
+
+       var letters =["rock", "paper", "scissor"];
+
+       var randomIndex=Math.floor(letters.length*Math.random());
+
+       var randomLetterInArray=letters[randomIndex];
+
+       console.log(randomLetterInArray); 
+
+        var myFunction=function(name)
+        {
+            console.log("testing " +name);
+        
+        }
+
+        var sum=function(x,y)
+      {
+          console.log(x+y);
+      }
+      sum(2,5);
+
+        myFunction("ren");
+        myFunction("test");
+        myFunction(2); 
+
+
+        var showFirstAndLast=function(arr)
+        {
+           console.log(arr[0]);
+           alert(arr[arr.length-1]);
+        }
+
+        var names=["john","arthur","sandra"];
+
+        showFirstAndLast(names);
+
+        //creating call backs ------------------
+
+        var myFirstFunction=function()
+        {
+            console.log("this is the first function")
+        }
+
+        var mySecondFunction=function()
+        {
+            console.log("second test")
+        }
+
+        var thirdTrial=function()
+        {
+            console.log("trash")
+        }
+
+        var myThirdFunction=function(anotherFunction,testTrial,thirdTest)
+        {
+            anotherFunction();
+            testTrial();
+            thirdTest();
+        }
+
+        myThirdFunction(myFirstFunction,mySecondFunction,thirdTrial); */
+
+        //_________________________ creating intervals___________________________
+        var second=0;
+        var interval=setInterval(function()
+        {
+            console.log(second);
+            second++;
+        },1000); 
+
+        setTimeout(function(){
+            clearInterval(interval);
+            console.log("it's done");
+
+        },10000);
+
+
+        //_________________________ creating intervals___________________________
+
+        
+
+
+
+
+
+    </script>
 </head>
 <body>
-    <h1 class="alignCenter"
-    style="text-transform: uppercase;">Hello World</h1>
-    <div class="square">
-        this is stuff to write.this is stuff to write.
-
-    </div>
-    <span> text in between blh sblgas </span>
-    
-    <div class="square">
-        this is stuff to write.this is stuff to write.
-
-    </div>
-    <p class="alignCenter">first line</p>
-    <p class="alignRight">second lineb</p>
-    <p class="alignLeft">dumb shit</p>
+    hello world
 </body>
 </html>
